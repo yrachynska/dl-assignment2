@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb_checkpoints/
+wandb/
+*.ckpt
+lightning_logs/
+cats-and-dogs/
