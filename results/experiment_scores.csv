@@ -7,4 +7,4 @@ cv224_tta,0.94275,five-fold mean with flip TTA,user Kaggle screenshot
 blend224_320_original,0.94996,full 320 fine-tuning + equal resolution blend,user Kaggle screenshot
 blend224_320_fast_original,0.95039,selected final pipeline,user Kaggle screenshot
 colleague_resnet152,0.94888,teammate reference; separate model,user Kaggle screenshot
-hard_vote_convnext_resnet,,CSV generated; no Kaggle score provided,not measured
+hard_vote_convnext_resnet,0.94854,three-voter experiment; below selected ConvNeXt blend,user Kaggle screenshot

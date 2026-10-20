@@ -45,7 +45,7 @@
   "sum_epoch_seconds_minutes": 56.59808744425001,
   "timing_note": "Sum of logged epoch_seconds; excludes setup, checkpoint writes, inference, ZIP creation and download.",
   "resnet_probability_ensemble_executed": false,
-  "resnet_hard_vote_score": null,
+  "resnet_hard_vote_score": 0.94854,
   "original_notebook_hashes": {
     "EDA.ipynb": "470be8b63742c0acbd681ad88b754371dde43d824964a9514b7ba2a33881fd3d",
     "Validation.ipynb": "8bf3389aa82a2f8e58e94c0dc8bc5144cf9fcf7d1f21258e42f01eaa58cb5eee",

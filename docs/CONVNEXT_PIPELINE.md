@@ -86,7 +86,7 @@ validation/test probabilities або checkpoint та оригінальний sp
 Попередній hard-voting experiment знаходиться в
 [archive/experiments/cnn_2_vote_resnet.ipynb](../archive/experiments/cnn_2_vote_resnet.ipynb),
 його CSV — у [archive/results/convnext_resnet_vote/](../archive/results/convnext_resnet_vote).
-Змінено 72 мітки на 64 фото; результат Kaggle цього експерименту ще не наданий.
+Змінено 72 мітки на 64 фото; Kaggle score голосування — **0.94854**, нижче за наш blend.
 Підтверджений фінальний score 0.95039 належить нашому ConvNeXt blend.
 
 Детальніше: [інструкція ансамблю](ENSEMBLE_RESNET.md).
