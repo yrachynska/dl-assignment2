@@ -1,0 +1,2 @@
+# Preserve exported CSV bytes so recorded SHA-256 hashes survive Git checkout.
+*.csv -text whitespace=cr-at-eol

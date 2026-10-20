@@ -1,0 +1,25 @@
+{
+  "weights": {
+    "224": 0.5,
+    "320": 0.5
+  },
+  "label_cols": [
+    "Cat",
+    "Dog",
+    "Moris",
+    "Motya",
+    "Biatrix"
+  ],
+  "base_cv_fingerprint": "00fa72a1e507db2e57c0be85966eba6bf16933c67b4558915589ff95e8eb612e",
+  "fine_cv_fingerprint": "c7eeb33c930b69fb2c0694c440136b1b7c2482fb66291b13291847491c8207cc",
+  "thresholds": {
+    "original": [
+      0.58,
+      0.42,
+      0.56,
+      0.5,
+      0.5
+    ]
+  },
+  "tta": false
+}

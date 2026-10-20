@@ -4,3 +4,11 @@ wandb/
 *.ckpt
 lightning_logs/
 cats-and-dogs/
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.safetensors
+*.zip
+.env
+.env.*

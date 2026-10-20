@@ -1,0 +1,6 @@
+label,convnext224_positives,convnext320_positives,resnet_positives,our_blend_positives,ensemble_positives,convnext_branches_disagree,changed_from_our_blend,changed_0_to_1,changed_1_to_0,different_from_resnet
+Cat,7778,7794,7777,7749,7774,54,29,27,2,59
+Dog,7675,7667,7657,7669,7664,64,27,11,16,57
+Moris,152,162,153,160,154,12,8,1,7,27
+Motya,139,134,131,136,135,13,3,1,2,20
+Biatrix,156,159,181,161,160,13,5,2,3,23

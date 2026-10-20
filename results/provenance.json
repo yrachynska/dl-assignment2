@@ -1,0 +1,54 @@
+{
+  "selected_notebook": "cnn_2_final.ipynb",
+  "model_name": "convnext_tiny.fb_in1k",
+  "label_cols": [
+    "Cat",
+    "Dog",
+    "Moris",
+    "Motya",
+    "Biatrix"
+  ],
+  "public_score_reported_by_user": 0.95039,
+  "score_type": "Kaggle public leaderboard; not local validation",
+  "best_submission_sha256": "04e3d2449450f2e2b4409eb66ce5036fe2f8c6bce904be2d5c7da4e8baf52ada",
+  "rows": 18673,
+  "tta": false,
+  "base_cv_fingerprint": "00fa72a1e507db2e57c0be85966eba6bf16933c67b4558915589ff95e8eb612e",
+  "fine_cv_fingerprint": "c7eeb33c930b69fb2c0694c440136b1b7c2482fb66291b13291847491c8207cc",
+  "base_checkpoint_hashes": {
+    "0": "1d4db6562c170d28c66efaf04477ddc08d5fae2ef5ff6d885a37749f6c262e45",
+    "1": "fa904775845e72126d340fcc15ccbbf0320454976f3071ef2b1bf8cc500aa858",
+    "2": "3acbedba175011259a505237207e5f4515f0526a42d5f856ae6340a63d47c206",
+    "3": "d6b8fc7176a209abda6c97b3aed9461ff2f3d3542d66d91e8f47b71eb5b8b586",
+    "4": "e2e130b61790d271d0a47b87afdee65830cc7ace6abb577a894295a16ef63757"
+  },
+  "fine_checkpoint_hashes": {
+    "0": "7bcf689eaeee1827632080257516c967a5553e200ae0a5765a2cf02926439614",
+    "1": "7222ebc000e175296c0745bd07c362e8bf970d3c6363a89ad56e07323ba0e869",
+    "2": "2caee07cba97bba077f9ccbf21e0e61d25eb74ca4988457b87063b7406519c93",
+    "3": "64c41f57c391997c4cc15722001e4546898c0e99e57499281c870ed0dc2a128a",
+    "4": "ac18439eb6aabe44d9b7baee8e74647f4c8a43f93b0224dad72bccd14d0a2666"
+  },
+  "blend_thresholds": [
+    0.58,
+    0.42,
+    0.56,
+    0.5,
+    0.5
+  ],
+  "versions_recorded_in_successful_run": {
+    "torch": "2.11.0+cu128",
+    "timm": "1.0.29",
+    "albumentations": "2.0.8"
+  },
+  "completed_fine_tuning_epochs": 19,
+  "sum_epoch_seconds_minutes": 56.59808744425001,
+  "timing_note": "Sum of logged epoch_seconds; excludes setup, checkpoint writes, inference, ZIP creation and download.",
+  "resnet_probability_ensemble_executed": false,
+  "resnet_hard_vote_score": null,
+  "original_notebook_hashes": {
+    "EDA.ipynb": "470be8b63742c0acbd681ad88b754371dde43d824964a9514b7ba2a33881fd3d",
+    "Validation.ipynb": "8bf3389aa82a2f8e58e94c0dc8bc5144cf9fcf7d1f21258e42f01eaa58cb5eee",
+    "ResNet.ipynb": "941b022ccd55cce014053bb449562fdfd607166b204f368d9fd2cd8b2613e233"
+  }
+}

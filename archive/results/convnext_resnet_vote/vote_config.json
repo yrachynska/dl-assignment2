@@ -1,0 +1,72 @@
+{
+  "schema": "convnext_resnet_hard_vote_v1",
+  "label_cols": [
+    "Cat",
+    "Dog",
+    "Moris",
+    "Motya",
+    "Biatrix"
+  ],
+  "rule": "at_least_two_positive_votes_out_of_three_per_label",
+  "voters": [
+    "convnext224_oof_thresholds",
+    "convnext320_oof_thresholds",
+    "resnet_binary_submission"
+  ],
+  "tta": false,
+  "resnet_validation_available": false,
+  "independent_validation_score": null,
+  "public_reference_score_reported_by_user": 0.95039,
+  "base_cv_fingerprint": "00fa72a1e507db2e57c0be85966eba6bf16933c67b4558915589ff95e8eb612e",
+  "fine_cv_fingerprint": "c7eeb33c930b69fb2c0694c440136b1b7c2482fb66291b13291847491c8207cc",
+  "base_checkpoint_hashes": {
+    "0": "1d4db6562c170d28c66efaf04477ddc08d5fae2ef5ff6d885a37749f6c262e45",
+    "1": "fa904775845e72126d340fcc15ccbbf0320454976f3071ef2b1bf8cc500aa858",
+    "2": "3acbedba175011259a505237207e5f4515f0526a42d5f856ae6340a63d47c206",
+    "3": "d6b8fc7176a209abda6c97b3aed9461ff2f3d3542d66d91e8f47b71eb5b8b586",
+    "4": "e2e130b61790d271d0a47b87afdee65830cc7ace6abb577a894295a16ef63757"
+  },
+  "fine_checkpoint_hashes": {
+    "0": "7bcf689eaeee1827632080257516c967a5553e200ae0a5765a2cf02926439614",
+    "1": "7222ebc000e175296c0745bd07c362e8bf970d3c6363a89ad56e07323ba0e869",
+    "2": "2caee07cba97bba077f9ccbf21e0e61d25eb74ca4988457b87063b7406519c93",
+    "3": "64c41f57c391997c4cc15722001e4546898c0e99e57499281c870ed0dc2a128a",
+    "4": "ac18439eb6aabe44d9b7baee8e74647f4c8a43f93b0224dad72bccd14d0a2666"
+  },
+  "folds_fingerprint": "453ed1d2e11451c68a88cd8a6c19f72fb038fc7bb794759c416dd3e5ec667017",
+  "thresholds": {
+    "224": [
+      0.39,
+      0.39,
+      0.62,
+      0.5,
+      0.5
+    ],
+    "320": [
+      0.27,
+      0.48,
+      0.5,
+      0.57,
+      0.5
+    ],
+    "our_blend": [
+      0.58,
+      0.42,
+      0.56,
+      0.5,
+      0.5
+    ]
+  },
+  "input_hashes": {
+    "base_test": "6c347191462d0fd928213f7bfcf228e5ea4adca8baceca0ffe39bd50c2df065b",
+    "fine_test": "2a39baf41718d5778f5571389abc96ac6713cd8a3e641bbf24703ff9edcf7feb",
+    "blend_config": "520402c932c0e78e7bc48b888b34614628fffd33b6e7e0b7a4b1b7e3e296a1aa",
+    "resnet_submission": "54845e37011bdce9ee0aa11dfe06f44bb68d1dc9208d8a12a9a9f113fa4a05e1"
+  },
+  "output_hashes": {
+    "baseline": "a1bb583a971cc61e621d35e098228b556cd6e208069e10a37b9b4f84f83dd25d",
+    "ensemble": "e8e0d11d9dda16ce2e217454b4156256eae2e9dfd37634b6eae0f02ac4c380de"
+  },
+  "changed_images": 64,
+  "changed_label_decisions": 72
+}

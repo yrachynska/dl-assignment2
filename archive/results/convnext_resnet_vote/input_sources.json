@@ -1,0 +1,18 @@
+{
+  "base_archive": "C:\\Users\\nikit\\Downloads\\convnext_backup.zip",
+  "base_members": [
+    "convnext_cv_ensemble/ensemble_config.json",
+    "convnext_cv_ensemble/test_probabilities_original.csv"
+  ],
+  "fine_archive": "C:\\Users\\nikit\\Downloads\\convnext_320_fast_inference_backup (2).zip",
+  "fine_members": [
+    "convnext_cv_320_fast_ensemble/ensemble_config.json",
+    "convnext_cv_320_fast_ensemble/test_probabilities_original.csv",
+    "convnext_blend_224_320_fast/blend_config.json",
+    "convnext_blend_224_320_fast/submission_blend_224_320.csv"
+  ],
+  "resnet_submission": "C:\\Users\\nikit\\Downloads\\Telegram Desktop\\submission (6).csv",
+  "our_reference_submission": "C:\\Users\\nikit\\Downloads\\submission_blend_224_320 (1).csv",
+  "notebook": "cnn_2_vote_resnet.ipynb",
+  "note": "Only small CSV/JSON members were read; checkpoints and archives were not modified."
+}
