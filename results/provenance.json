@@ -50,5 +50,18 @@
     "EDA.ipynb": "470be8b63742c0acbd681ad88b754371dde43d824964a9514b7ba2a33881fd3d",
     "Validation.ipynb": "8bf3389aa82a2f8e58e94c0dc8bc5144cf9fcf7d1f21258e42f01eaa58cb5eee",
     "ResNet.ipynb": "941b022ccd55cce014053bb449562fdfd607166b204f368d9fd2cd8b2613e233"
+  },
+  "original_notebook_hashes_note": "Historical hashes recorded before main integration; current teammate files match the main_integration commit exactly.",
+  "main_integration": {
+    "main_commit": "1de76ae5d92cfb4919c0a9ed93934c88d0c03b23",
+    "colleague_files_sha256": {
+      "EDA.ipynb": "a346ae782a2ed73d340a9137e8d77ae898d241a64e2b6ffc4eb81a593006a9de",
+      "Validation.ipynb": "de07737400e5c0f827f4bbe2c009f3e43455a795746dc8d95cfe557109ad16fa",
+      "ResNet.ipynb": "941b022ccd55cce014053bb449562fdfd607166b204f368d9fd2cd8b2613e233",
+      "ai_usage.txt": "ee6dacbfc5409f9f8c2657c1afd1aff11dff2a289df46e062be85ec606d48d6a"
+    },
+    "readme_colleague_prefix_sha256": "726d02ec7306faf7311ad7692a12cbc85c7ef57b616179f636bf52b5330a8c86",
+    "readme_colleague_prefix_bytes": 2218,
+    "policy": "Keep teammate files and README prefix unchanged; append the ConvNeXt report."
   }
 }

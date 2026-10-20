@@ -318,3 +318,8 @@ EDA, validation і перенесений reference ResNet перевірені 
 змін. Ваги, ZIP та API keys виключені з Git; код, звіт, історія, конфігурації й
 найкращий submission зберігаються в репозиторії. Джерела зафіксовані в
 [results/provenance.json](results/provenance.json).
+
+
+### Інтеграція з командною main
+
+Після підготовки фінального pipeline до нашої гілки інтегровано актуальну main. Файли EDA.ipynb, Validation.ipynb, ResNet.ipynb та ai_usage.txt залишені точно як у main колеги. Її README збережений незмінним початковим блоком; цей звіт доданий після нього. Інструкцію запуску ConvNeXt винесено до docs/CONVNEXT_PIPELINE.md.
